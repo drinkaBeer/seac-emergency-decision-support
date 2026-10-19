@@ -1,0 +1,110 @@
+{
+  "date": "2026-10-20",
+  "scope": "Repository directories only; document filenames and contents are unchanged.",
+  "path_base": "repository root",
+  "source_commit": "e2f100fdba54e81e2158ceb7c08384fe007450f7",
+  "directories_renamed": 25,
+  "directories": [
+    {
+      "original_path": "data/2 法律法规与部门规章",
+      "english_path": "data/2_laws_and_regulations"
+    },
+    {
+      "original_path": "data/2 法律法规与部门规章/2.1 突发事件应对与总体应急管理",
+      "english_path": "data/2_laws_and_regulations/2.1_emergency_response_and_management"
+    },
+    {
+      "original_path": "data/2 法律法规与部门规章/2.2 安全生产法律及配套规定",
+      "english_path": "data/2_laws_and_regulations/2.2_work_safety_laws"
+    },
+    {
+      "original_path": "data/2 法律法规与部门规章/2.3 城镇燃气管理与专项整治文件",
+      "english_path": "data/2_laws_and_regulations/2.3_urban_gas_management_and_rectification"
+    },
+    {
+      "original_path": "data/2 法律法规与部门规章/2.4 消防与特种设备法律规章",
+      "english_path": "data/2_laws_and_regulations/2.4_fire_safety_and_special_equipment"
+    },
+    {
+      "original_path": "data/2 法律法规与部门规章/2.5 应按研究地区补充的地方性法规",
+      "english_path": "data/2_laws_and_regulations/2.5_local_regulations"
+    },
+    {
+      "original_path": "data/3 标准规范与技术指南",
+      "english_path": "data/3_standards_and_technical_guidelines"
+    },
+    {
+      "original_path": "data/3 标准规范与技术指南/3.1 燃气工程、管网运行维护和抢修标准",
+      "english_path": "data/3_standards_and_technical_guidelines/3.1_gas_engineering_operations_and_repair"
+    },
+    {
+      "original_path": "data/3 标准规范与技术指南/3.2 腐蚀、材料、连接与完整性管理标准",
+      "english_path": "data/3_standards_and_technical_guidelines/3.2_corrosion_materials_connections_and_integrity"
+    },
+    {
+      "original_path": "data/3 标准规范与技术指南/3.4 应急预案、应急处置卡、演练与评估标准",
+      "english_path": "data/3_standards_and_technical_guidelines/3.4_emergency_planning_drills_and_evaluation"
+    },
+    {
+      "original_path": "data/3 标准规范与技术指南/3.5 消防、疏散和个体防护标准",
+      "english_path": "data/3_standards_and_technical_guidelines/3.5_fire_safety_evacuation_and_ppe"
+    },
+    {
+      "original_path": "data/3 标准规范与技术指南/3.6 可纳入的代表性地方标准",
+      "english_path": "data/3_standards_and_technical_guidelines/3.6_local_standards"
+    },
+    {
+      "original_path": "data/4 事故调查报告与典型案例",
+      "english_path": "data/4_accident_reports_and_case_studies"
+    },
+    {
+      "original_path": "data/4 事故调查报告与典型案例/4.1 建议优先下载的国家级、重大事故调查报告",
+      "english_path": "data/4_accident_reports_and_case_studies/4.1_major_accident_investigation_reports"
+    },
+    {
+      "original_path": "data/4 事故调查报告与典型案例/4.2 第三方施工破坏案例",
+      "english_path": "data/4_accident_reports_and_case_studies/4.2_third_party_construction_damage"
+    },
+    {
+      "original_path": "data/4 事故调查报告与典型案例/4.3 腐蚀穿孔、老化和设备失效案例",
+      "english_path": "data/4_accident_reports_and_case_studies/4.3_corrosion_aging_and_equipment_failure"
+    },
+    {
+      "original_path": "data/4 事故调查报告与典型案例/4.4 泄漏、燃烧、爆炸与人员处置案例",
+      "english_path": "data/4_accident_reports_and_case_studies/4.4_leak_fire_explosion_and_personnel_response"
+    },
+    {
+      "original_path": "data/4 事故调查报告与典型案例/4.5 事故整改与后评估资料",
+      "english_path": "data/4_accident_reports_and_case_studies/4.5_rectification_and_post_accident_assessment"
+    },
+    {
+      "original_path": "data/5 应急预案与处置文件",
+      "english_path": "data/5_emergency_plans_and_response_documents"
+    },
+    {
+      "original_path": "data/5 应急预案与处置文件/5.1 国家及省市总体预案",
+      "english_path": "data/5_emergency_plans_and_response_documents/5.1_national_and_regional_emergency_plans"
+    },
+    {
+      "original_path": "data/5 应急预案与处置文件/5.2 城市燃气专项应急预案公开样本",
+      "english_path": "data/5_emergency_plans_and_response_documents/5.2_urban_gas_emergency_plans"
+    },
+    {
+      "original_path": "data/5 应急预案与处置文件/5.2 城市燃气专项应急预案公开样本/1 省级燃气应急预案",
+      "english_path": "data/5_emergency_plans_and_response_documents/5.2_urban_gas_emergency_plans/1_provincial_gas_emergency_plans"
+    },
+    {
+      "original_path": "data/5 应急预案与处置文件/5.2 城市燃气专项应急预案公开样本/2 市级燃气应急预案",
+      "english_path": "data/5_emergency_plans_and_response_documents/5.2_urban_gas_emergency_plans/2_municipal_gas_emergency_plans"
+    },
+    {
+      "original_path": "data/5 应急预案与处置文件/5.3 区县级燃气专项预案公开样本",
+      "english_path": "data/5_emergency_plans_and_response_documents/5.3_district_and_county_gas_emergency_plans"
+    },
+    {
+      "original_path": "data/5 应急预案与处置文件/5.4 企业综合预案、专项预案和现场处置方案",
+      "english_path": "data/5_emergency_plans_and_response_documents/5.4_enterprise_and_site_response_plans"
+    }
+  ],
+  "legacy_release_paths": "The data-v1.0.0 archives and database retain original paths. Resolve them using documents.csv original_relative_path -> relative_path, or the directory mappings here."
+}

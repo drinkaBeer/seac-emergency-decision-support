@@ -7,7 +7,7 @@ Version: data-v1.0.0. [Download the data release](https://github.com/drinkaBeer/
 | [Evidence store](https://github.com/drinkaBeer/seac-emergency-decision-support/releases/download/data-v1.0.0/seac_evidence_store_v1.0.0.zip) | SQLite database; 306 documents, 58,169 clauses, 109,163 context records and 33,207 evidence links | 79,484,096 bytes |
 | [Knowledge graph](https://github.com/drinkaBeer/seac-emergency-decision-support/releases/download/data-v1.0.0/seac_knowledge_graph_v1.0.0.zip) | 133,404 nodes, 255,033 relationships, schema and Cypher restoration data | 64,507,107 bytes |
 
-`manifest.json` lists SHA-256 values, package members, source/publication versions and validation results. `SHA256SUMS.txt` covers the downloadable archives and manifest. `documents.csv` maps document IDs to the original files already available under data/; its relative_path is relative to data/.
+`manifest.json` lists SHA-256 values, package members, source/publication versions and validation results. `SHA256SUMS.txt` covers the downloadable archives and manifest. `documents.csv` maps document IDs to source files under data/. Its `relative_path` uses the current English directory names; `original_relative_path` retains the path recorded in the versioned evidence database and release archive. Both paths are relative to data/.
 
 ## Restore the evidence store
 
@@ -26,3 +26,9 @@ JSONL records retain labels, all exported properties and original business ident
 All 306 document IDs, 58,169 clause IDs/FROM_DOCUMENT mappings and 33,207 SUPPORTED_BY link keys match the SQLite evidence store. Export counts/endpoints, SQLite integrity/foreign keys/FTS, archive CRCs and representative Cypher syntax were checked. A complete independent graph restoration was not performed during packaging; consult the manifest for this limitation.
 
 These assets contain research data, Cypher data-restoration statements and documentation. API service implementations, credentials, connection configuration, runtime logs and model-call caches are excluded. The source graph and evidence database were not modified.
+
+## English source-directory names
+
+All repository directory names use English. Original document filenames and file contents are unchanged. The complete old-to-new directory mapping is in [folder_name_mapping.json](folder_name_mapping.json).
+
+The published `data-v1.0.0` archives are frozen snapshots, so their embedded `document.file_path` values and `documents.csv` retain the original directory paths. Use the repository's current `documents.csv`, joined by `document_id` or `original_relative_path`, to locate each file at its new `relative_path`. No database changes are needed. Archive member hashes in `manifest.json` describe the frozen archive files, not the updated repository document catalog.
