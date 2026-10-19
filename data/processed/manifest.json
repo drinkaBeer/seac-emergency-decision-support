@@ -1,0 +1,210 @@
+{
+  "date": "2026-10-20",
+  "evidence": {
+    "artifact_set_hash": "f4f24447b00405584ad4da2ad1cf3e1a847751421edfa15f78c7b27ba50e002b",
+    "core_table_logical_sha256": {
+      "clause": "8a2de81b50ebc155e423ecb740c3ca65a29cae2e508f06f31a508e7b5dbd6457",
+      "clause_context": "a0cee2a036f1fee473b61d1b1f6100f20d3084ef198ae55bc9c6c15df2ac28b7",
+      "document": "76227ac93b3a442aba2d63ac71e9d4e47bec1bbb9c8e80264ef5de09370d6da9",
+      "knowledge_evidence_link": "e0debd473561628f9dab6e8ba619d2ea3f7ead1bb45640becb0269babcc935fb",
+      "schema_meta": "45f0125e4a5f0cb163b0eb49b2fc001a12336bbb9658469ec3a1d8d218e6a9bb"
+    },
+    "foreign_key_errors": 0,
+    "fts_integrity_check": "passed",
+    "note": "Publication copy retains original core records and indexes. Runtime log rows are removed and free pages vacuumed. Use publication_database_sha256 for this copy; the frozen source file hash differs.",
+    "publication_database_sha256": "9a67e1f4349b8b0e3a30792463657b783267de1d3053e5ffafe7e39a9747ad5f",
+    "removed_runtime_log_rows": {
+      "evidence_retrieval_log": 0,
+      "ingestion_log": 1593
+    },
+    "schema_version": "1.1.0",
+    "source_database_sha256": "8a4901d419469509e0c76e456c29d74b9f895b89271a621ce45616de8b70a980",
+    "source_database_unchanged": true,
+    "sqlite_integrity_check": "ok",
+    "table_counts": {
+      "clause": 58169,
+      "clause_context": 109163,
+      "document": 306,
+      "knowledge_evidence_link": 33207,
+      "schema_meta": 4
+    }
+  },
+  "knowledge_graph": {
+    "constraints": 18,
+    "cross_database_validation": {
+      "clause_ids_equal": true,
+      "document_ids_equal": true,
+      "from_document_mismatches": 0,
+      "supported_by": 33207,
+      "supported_by_key_sets_equal": true
+    },
+    "edition": "community",
+    "export_id_scope": "Snapshot identifiers link the JSONL files; original business IDs remain in properties. Native Neo4j element IDs are not promised to survive reconstruction.",
+    "indexes_in_source": 38,
+    "label_counts": {
+      "AccidentType": 185,
+      "Action": 19962,
+      "Actor": 5690,
+      "AffectedObject": 874,
+      "Case": 96,
+      "ClauseRef": 58169,
+      "Condition": 5380,
+      "DecisionCategory": 8,
+      "Document": 306,
+      "Environment": 353,
+      "Event": 2841,
+      "FacilityType": 1615,
+      "Hazard": 1012,
+      "KnowledgeBaseBuild": 2,
+      "KnowledgeUnit": 33202,
+      "OutputField": 34,
+      "Prohibition": 534,
+      "Resource": 1423,
+      "State": 1718
+    },
+    "matching_evidence_artifact_set_hash": "f4f24447b00405584ad4da2ad1cf3e1a847751421edfa15f78c7b27ba50e002b",
+    "neo4j_version": "5.26.24",
+    "node_and_relationship_endpoints_valid": true,
+    "nodes": 133404,
+    "relationship_type_counts": {
+      "AFFECTED_OBJECT": 346,
+      "AFFECTS": 96,
+      "APPLIES_WHEN": 940,
+      "BELONGS_TO": 34961,
+      "CAUSES": 226,
+      "CONFLICTS_WITH": 32,
+      "COOPERATES_ON": 525,
+      "FROM_DOCUMENT": 58169,
+      "HAS_ACCIDENT_TYPE": 136,
+      "HAS_PROHIBITION": 336,
+      "INITIATES": 6,
+      "INVOLVES_FACILITY": 448,
+      "MAPS_TO": 42119,
+      "MAY_LEAD_TO": 1097,
+      "MITIGATES": 102,
+      "OBJECT_IS": 33172,
+      "OBSERVED_EVENT": 940,
+      "OCCURRED_IN": 115,
+      "PARALLEL_WITH": 218,
+      "PRECEDES": 729,
+      "REQUIRES": 2806,
+      "REQUIRES_RESOURCE": 573,
+      "RESPONSIBLE_FOR": 7374,
+      "RESULTS_IN_STATE": 49,
+      "SOURCE_DOCUMENT": 96,
+      "STOP_WHEN": 11,
+      "SUBJECT_OF": 33202,
+      "SUPPORTED_BY": 33207,
+      "TOOK_ACTION": 3002
+    },
+    "relationships": 255033,
+    "representative_import_statements_explain_checked": 3,
+    "restore_validation_scope": "Full export counts, endpoints, business IDs, cross-store links and representative Cypher syntax checked. A complete independent restore has not been run.",
+    "source_build_records": [
+      {
+        "artifact_set_hash": "42189a5ff7a6a87fade2c5b725c2038377040fbfc89bcecb1cf32c7641443309",
+        "schema_version": "1.1.0",
+        "status": null
+      },
+      {
+        "artifact_set_hash": "f4f24447b00405584ad4da2ad1cf3e1a847751421edfa15f78c7b27ba50e002b",
+        "schema_version": "1.1.0",
+        "status": null
+      }
+    ],
+    "source_graph_node_count_unchanged": true,
+    "temporal_encoding": "Tagged $neo4j_type values in JSONL preserve temporal/spatial types; Cypher import files reconstruct native values."
+  },
+  "packages": [
+    {
+      "bytes": 79484096,
+      "download_url": "https://github.com/drinkaBeer/seac-emergency-decision-support/releases/download/data-v1.0.0/seac_evidence_store_v1.0.0.zip",
+      "members": [
+        {
+          "bytes": 348884992,
+          "path": "evidence_store/evidence.db",
+          "sha256": "9a67e1f4349b8b0e3a30792463657b783267de1d3053e5ffafe7e39a9747ad5f"
+        },
+        {
+          "bytes": 90500,
+          "path": "evidence_store/documents.csv",
+          "sha256": "c8f2bb0533d9872291ac451b0de2cf98c1f166435fb0f2d4e326a5d4fe0b0e3e"
+        },
+        {
+          "bytes": 1641,
+          "path": "evidence_store/README.md",
+          "sha256": "d825729944f5363648cb22d98edea7d50b312ed979b970ff3aeb6a84a00928d6"
+        },
+        {
+          "bytes": 1424,
+          "path": "evidence_store/package_manifest.json",
+          "sha256": "af485990263e0e689a459eedc2ac3fa3bcea6277d223e017ef5e022371fa4045"
+        }
+      ],
+      "name": "seac_evidence_store_v1.0.0.zip",
+      "sha256": "c8c781ba8c813bb59cdbb133fd0e5e78e7c3b3c5abe34361d629baaaa30e50a8"
+    },
+    {
+      "bytes": 64507107,
+      "download_url": "https://github.com/drinkaBeer/seac-emergency-decision-support/releases/download/data-v1.0.0/seac_knowledge_graph_v1.0.0.zip",
+      "members": [
+        {
+          "bytes": 87642838,
+          "path": "knowledge_graph/nodes.jsonl",
+          "sha256": "93729407b5ee1e1fb8d3c354cee4fe74c7bf39c338a32da262bc061ffbba3738"
+        },
+        {
+          "bytes": 76079247,
+          "path": "knowledge_graph/relationships.jsonl",
+          "sha256": "df9fad4ee40c1c2a6da1280dd9e274d063b83ca0066a271f40f96362b99eb2be"
+        },
+        {
+          "bytes": 21733,
+          "path": "knowledge_graph/schema.json",
+          "sha256": "c9e00903e25481e1e99fc6e9cd2f2d563d6c7142d212d1bd43e0b74b7f3225b8"
+        },
+        {
+          "bytes": 4523,
+          "path": "knowledge_graph/schema.cypher",
+          "sha256": "b44581d65b02587348fc57fd5e25cc369eac9ff27e7fbe857170175dc808ec6f"
+        },
+        {
+          "bytes": 77622821,
+          "path": "knowledge_graph/graph_nodes.cypher",
+          "sha256": "1abc7d1239580e1dd254b527f1a86687c9cfbe7b8f0f67759268f24c5bd2db28"
+        },
+        {
+          "bytes": 50443484,
+          "path": "knowledge_graph/graph_relationships.cypher",
+          "sha256": "3cd7c449dd15e436403587599e701973e27ad75f849bf4d11117b473ea2308de"
+        },
+        {
+          "bytes": 114,
+          "path": "knowledge_graph/graph_finalize.cypher",
+          "sha256": "5670df270bd7e9e804158cb293d1c91158379ffaeb27a212996c6e32937a526e"
+        },
+        {
+          "bytes": 351,
+          "path": "knowledge_graph/verify.cypher",
+          "sha256": "2a4a777a9247c471845313cb2cbb54fca6e85b075eaa34ed082d374613a5a798"
+        },
+        {
+          "bytes": 2973,
+          "path": "knowledge_graph/README.md",
+          "sha256": "58e217a51396b377bf2d9560175c5105b252191c0f9ce87ecd81ea49c0bb1023"
+        },
+        {
+          "bytes": 2791,
+          "path": "knowledge_graph/package_manifest.json",
+          "sha256": "41a687a546424a8b9e3dd1511da1002d6c74608b641383b53747ddd22e79943a"
+        }
+      ],
+      "name": "seac_knowledge_graph_v1.0.0.zip",
+      "sha256": "b120c51b00fed0811e2bb9c1037cba71730e168ff62ff88beb160e4c19ffa76e"
+    }
+  ],
+  "publication_scope": "Data snapshots, Cypher data restoration, manifests and documentation only. No API service implementation, credentials, connection configuration, runtime logs or model-call cache.",
+  "release_tag": "data-v1.0.0",
+  "release_url": "https://github.com/drinkaBeer/seac-emergency-decision-support/releases/tag/data-v1.0.0",
+  "status": "prepared_and_locally_verified"
+}
