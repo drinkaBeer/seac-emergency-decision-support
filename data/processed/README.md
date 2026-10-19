@@ -1,11 +1,11 @@
 # SEAC processed knowledge resources
 
-Version: data-v1.0.0. [Download the data release](https://github.com/drinkaBeer/seac-emergency-decision-support/releases/tag/data-v1.0.0).
+Version: data-v1.0.1. [Download the data release](https://github.com/drinkaBeer/seac-emergency-decision-support/releases/tag/data-v1.0.1).
 
 | Data package | Contents | Size |
 |---|---|---:|
-| [Evidence store](https://github.com/drinkaBeer/seac-emergency-decision-support/releases/download/data-v1.0.0/seac_evidence_store_v1.0.0.zip) | SQLite database; 306 documents, 58,169 clauses, 109,163 context records and 33,207 evidence links | 79,484,096 bytes |
-| [Knowledge graph](https://github.com/drinkaBeer/seac-emergency-decision-support/releases/download/data-v1.0.0/seac_knowledge_graph_v1.0.0.zip) | 133,404 nodes, 255,033 relationships, schema and Cypher restoration data | 64,507,107 bytes |
+| [Evidence store](https://github.com/drinkaBeer/seac-emergency-decision-support/releases/download/data-v1.0.1/seac_evidence_store_v1.0.0.zip) | SQLite database; 306 documents, 58,169 clauses, 109,163 context records and 33,207 evidence links | 79,484,096 bytes |
+| [Knowledge graph](https://github.com/drinkaBeer/seac-emergency-decision-support/releases/download/data-v1.0.1/seac_knowledge_graph_v1.0.0.zip) | 133,404 nodes, 255,033 relationships, schema and Cypher restoration data | 64,507,107 bytes |
 
 `manifest.json` lists SHA-256 values, package members, source/publication versions and validation results. `SHA256SUMS.txt` covers the downloadable archives and manifest. `documents.csv` maps document IDs to source files under data/. Its `relative_path` uses the current English directory names; `original_relative_path` retains the path recorded in the versioned evidence database and release archive. Both paths are relative to data/.
 
@@ -32,3 +32,9 @@ These assets contain research data, Cypher data-restoration statements and docum
 All repository directory names use English. Original document filenames and file contents are unchanged. The complete old-to-new directory mapping is in [folder_name_mapping.json](folder_name_mapping.json).
 
 The published `data-v1.0.0` archives are frozen snapshots, so their embedded `document.file_path` values and `documents.csv` retain the original directory paths. Use the repository's current `documents.csv`, joined by `document_id` or `original_relative_path`, to locate each file at its new `relative_path`. No database changes are needed. Archive member hashes in `manifest.json` describe the frozen archive files, not the updated repository document catalog.
+
+## Changes in data-v1.0.1
+
+This release includes the English repository directories and current path mappings. Exactly 306 source documents are included in the tagged repository snapshot; their original filenames and bytes are unchanged. Download the standalone documents.csv and folder_name_mapping.json assets to map legacy database paths to current English directories.
+
+The two data ZIPs retain their v1.0.0 filenames and SHA-256 values because their database/graph snapshots are reused byte-for-byte. No re-export was performed. Their embedded catalogs retain legacy paths. Release-level manifest.json and SHA256SUMS.txt now also cover the current standalone catalog and directory mapping. The previous data-v1.0.0 release remains available.
